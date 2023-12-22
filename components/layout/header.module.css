@@ -1,0 +1,121 @@
+
+
+.mobileMainDiv {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2%;
+    width: 100%;
+}
+.headerTag {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+}
+.pageTitle {
+    font-family: "M Bold";
+    font-size: 25px;
+    text-decoration: none;
+    color: black;    
+}
+.menuOutlined {
+ width: 15%;
+}
+.mobileNav {
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    top: 0;
+    left: 0;
+    padding: 5% 7% 0%;
+    width: 100%;
+    height: auto;
+}
+.closeMenuDiv {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+
+}
+.closeMenu {
+    width: 10%;
+
+}
+.navLinksDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    padding: 24% 0% 0%;
+    margin-bottom: 25%;
+}
+.headerLink {
+    font-family: "M Regular";
+    font-size: 25px;
+    text-decoration: none;
+    color: black; 
+    margin-bottom: 15%;
+}
+/* Clases Desktop */
+
+.desktopMainDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 3%;
+}
+.deskNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 33%;
+}
+
+.igLogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.igLogo img{
+    width: 10%;
+}
+@media (min-width:752px) {
+    .pageTitle {
+        font-size: 30px;
+    }
+    .headerLink {
+        font-size: 25px;
+        margin-bottom: 0%;
+    }
+    .igLogo {
+
+        width: 10%;
+    }
+    .igLogo img{
+        width: 100%;
+    }
+}
+
+@font-face {
+    font-family: "M Regular";
+    src: url("../../static/fonts/Montserrat-Regular.ttf");
+}
+@font-face {
+    font-family: "M Bold";
+    src: url("../../static/fonts/Montserrat-Bold.ttf");
+}
+@font-face {
+    font-family: "M Light";
+    src: url("../../static/fonts/Montserrat-Light.ttf");
+}
