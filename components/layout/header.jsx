@@ -24,7 +24,11 @@ const Header = (props) => {
         </div>
 
     ):(
+        <>
+
+
         <div className={styles.mobileMainDiv}>
+
           <div className={styles.headerTag}>
             <Link href="/" className={styles.pageTitle}>Dante Medina</Link>
             <img
@@ -50,6 +54,8 @@ const Header = (props) => {
             </div>
           ) : null}
         </div>
+        </>
+
     )}
 
     </>
