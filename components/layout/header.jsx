@@ -17,8 +17,8 @@ const Header = (props) => {
         <div className={styles.desktopMainDiv}>
             <Link href={"/"} className={styles.pageTitle}>Dante Medina</Link>
             <div className={styles.deskNav}>
-                <Link href={"/work"} className={styles.headerLink}>obra</Link>
-                <Link href={"/about"} className={styles.headerLink}>acerca de</Link>
+                <Link href={"/obra"} className={styles.headerLink}>obra</Link>
+                <Link href={"/acerca"} className={styles.headerLink}>acerca de</Link>
                 <Link href={"/"} className={styles.igLogo}><img src={Ig.src}/></Link>
             </div>
         </div>
@@ -44,8 +44,8 @@ const Header = (props) => {
               </div>
               <div className={styles.navLinksDiv}>
                 <Link href={"/"} className={styles.headerLink}>inicio</Link>
-                <Link href={"/work"} className={styles.headerLink}>obra</Link>
-                <Link href={"/about"} className={styles.headerLink}>acerca de</Link>
+                <Link href={"/obra"} className={styles.headerLink}>obra</Link>
+                <Link href={"/acerca"} className={styles.headerLink}>acerca de</Link>
               </div>
               <Link href={"/"} className={styles.igLogo}>
                 <img src={Ig.src}/>

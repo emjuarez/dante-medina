@@ -1,5 +1,22 @@
-
-
-@media (max-width: 752px) {
-
+.homeMainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 5% 4%;
 }
+.homeImage {
+  width: 100%;
+}
+@media (min-width: 752px) {
+  .homeMainDiv {
+
+    align-items: center;
+    padding: 5% 4%;
+  }
+  .homeImage {
+    width: 30%;
+    max-width: 670px;
+  }
+}
+@media (min-width: 1000px) {}
+@media (min-width: 1500px) {}
