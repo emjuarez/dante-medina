@@ -11,6 +11,7 @@
     flex-direction: row;
     overflow-x: auto;
     margin-bottom: 10%;
+    width: 100%;
 }
 .categoryButton {
     display: flex;
@@ -18,9 +19,9 @@
     align-items: center;
     border-radius: 20px;
     background-color: black;  
-    padding: 2%;
-    min-width: 59%;
-    margin-right: 4%;
+    padding: 3%;
+    min-width: 50%;
+    margin-right: 3%;
 }
 .categoryButton p {
     font-family: "M Bold";
@@ -34,6 +35,9 @@
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
 }
+.modalSize {
+    width: 100%;
+}
 .obraGridItem {
     width: 100%;
 }
@@ -43,6 +47,9 @@
     align-items: center;
     padding: 3%;
 }
+.modalImage {
+    width: 100%;
+}
 .obraInfo {
     font-family: "M Regular";
     font-size: 16px;
@@ -50,6 +57,14 @@
     margin-bottom: 0;
 }
 @media (min-width: 752px) {
+    .obraMainDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        padding: 5%;
+    }
     .obraContainer {
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 30px;
@@ -58,13 +73,29 @@
         max-width: 1700px;
     }
     .categoryNavDiv {
+        overflow-x: hidden;
         width: 100%;
+        justify-content: space-around;
+        max-width: 1000px;
     }
     .categoryButton {
         border-radius: 20px;
-        padding: 2%;
-        min-width: 30%;
+        padding: 1%;
+        min-width: 15%;
         margin-right: 1%;
+    }
+    .categoryButton p {
+        font-size: 10px;
+    }
+    .modal-size {
+        width: 100%;
+        max-height: 100%;
+        
+    }
+}
+@media (min-width: 1000px) {
+    .categoryButton p {
+        font-size: 12px;
     }
 }
 @media (min-width: 1500px) {
@@ -73,7 +104,22 @@
         align-items: center;
         padding: 5%;
     }
+    .obraContainer {
+        max-width: 1500px;
+    }
+    .categoryNavDiv {
+        margin-bottom: 5%;
+        max-width: 1300px;
+    }
     .categoryButton {
+        min-width: 13%;
+        padding: 1% 2%;
         border-radius: 100px;
+    }
+    .categoryButton p {
+        font-size: 15px;
+    }
+    .obraInfo {
+        font-size: 20px;
     }
 }
