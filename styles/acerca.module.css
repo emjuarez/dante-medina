@@ -1,0 +1,82 @@
+.acercaMainDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4%;
+}
+.bioDiv {
+    margin-bottom: 8%;
+    max-width: 1000px;
+}
+.infoTitle {
+    font-family: "M Bold";
+    font-size: 20px;
+    text-decoration: none;
+    color: black;   
+    margin-bottom: 5%;
+} 
+.infoText {
+    font-family: "M Regular";
+    font-size: 16px;
+    text-decoration: none;
+    color: black; 
+}
+.cvDiv {
+    max-width: 1000px;
+}
+.resumeName {
+    font-family: "M Bold";
+    font-size: 17px;
+    text-decoration: none;
+    color: black;  
+}
+.exposDiv {
+    margin-top: 13%;
+}
+@media (min-width: 752px) {
+    .bioDiv {
+        margin-bottom: 4%;
+    }
+    .infoTitle {
+        margin-bottom: 3%;
+        font-size: 23px
+    } 
+    .infoText {
+        font-size: 18px;
+    }
+    .resumeName {
+        font-size: 20px;
+    }
+    .exposDiv {
+        margin-top: 6%;
+    }
+}
+@media (min-width: 1000px) {
+
+}
+@media (min-width: 1500px) {
+    .acercaMainDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 2% 8%;
+    }
+    .bioDiv {
+        margin-bottom: 1%;
+    }
+    .infoTitle {
+        margin-bottom: 3%;
+        font-size: 30px
+    } 
+    .infoText {
+        font-size: 22px;
+    }
+    .resumeName {
+        font-size: 23px;
+    }
+    .exposDiv {
+        margin-top: 3%;
+    }
+}
