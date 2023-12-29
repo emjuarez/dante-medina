@@ -205,21 +205,111 @@ const Work = () => {
               )}
           </>)}
           </div>
-          {windowSize.width > 2000 ? (
-            <Modal centered size="lg" show={show !== false} onHide={handleShow(false)}>
-              <img src={imgMap[show]?.src.src} className={styles.modalImage}/>
-              <div className={styles.modalBottomDiv}>
-                <p className={styles.obraInfo}>{imgMap[show]?.text}</p>
-              </div>
-            </Modal>
-          ):(
-            <Modal centered size="xs" show={show !== false} onHide={handleShow(false)}>
-              <img src={imgMap[show]?.src.src} className={styles.modalImage}/>
-              <div className={styles.modalBottomDiv}>
-                <p className={styles.obraInfo}>{imgMap[show]?.text}</p>
-              </div>
-            </Modal>
-          )}
+
+          {active ==="gral" && (<>
+            {windowSize.width > 2000 ? (
+              <Modal centered size="lg" show={show !== false} onHide={handleShow(false)}>
+                <img src={imgMap[show]?.src.src} className={styles.modalImage}/>
+                <div className={styles.modalBottomDiv}>
+                  <p className={styles.obraInfo}>{imgMap[show]?.text}</p>
+                </div>
+              </Modal>
+            ):(
+              <Modal centered size="xs" show={show !== false} onHide={handleShow(false)}>
+                <img src={imgMap[show]?.src.src} className={styles.modalImage}/>
+                <div className={styles.modalBottomDiv}>
+                  <p className={styles.obraInfo}>{imgMap[show]?.text}</p>
+                </div>
+              </Modal>
+            )}
+            </>)}
+          {active ==="carboncillos" && (<>
+            {windowSize.width > 2000 ? (
+                <Modal centered size="lg" show={show !== false} onHide={handleShow(false)}>
+                  <img src={carboncillos[show]?.src.src} className={styles.modalImage}/>
+                  <div className={styles.modalBottomDiv}>
+                    <p className={styles.obraInfo}>{imgMap[show]?.text}</p>
+                  </div>
+                </Modal>
+              ):(
+                <Modal centered size="xs" show={show !== false} onHide={handleShow(false)}>
+                  <img src={carboncillos[show]?.src.src} className={styles.modalImage}/>
+                  <div className={styles.modalBottomDiv}>
+                    <p className={styles.obraInfo}>{imgMap[show]?.text}</p>
+                  </div>
+                </Modal>
+              )}
+          </>)}
+          {active ==="masc2019" && (<>
+            {windowSize.width > 2000 ? (
+                <Modal centered size="lg" show={show !== false} onHide={handleShow(false)}>
+                  <img src={masc2019[show]?.src.src} className={styles.modalImage}/>
+                  <div className={styles.modalBottomDiv}>
+                    <p className={styles.obraInfo}>{imgMap[show]?.text}</p>
+                  </div>
+                </Modal>
+              ):(
+                <Modal centered size="xs" show={show !== false} onHide={handleShow(false)}>
+                  <img src={masc2019[show]?.src.src} className={styles.modalImage}/>
+                  <div className={styles.modalBottomDiv}>
+                    <p className={styles.obraInfo}>{imgMap[show]?.text}</p>
+                  </div>
+                </Modal>
+              )}
+          </>)}
+          {active ==="mascPiedra" && (<>
+            {windowSize.width > 2000 ? (
+                <Modal centered size="lg" show={show !== false} onHide={handleShow(false)}>
+                  <img src={mascPiedra[show]?.src.src} className={styles.modalImage}/>
+                  <div className={styles.modalBottomDiv}>
+                    <p className={styles.obraInfo}>{imgMap[show]?.text}</p>
+                  </div>
+                </Modal>
+              ):(
+                <Modal centered size="xs" show={show !== false} onHide={handleShow(false)}>
+                  <img src={mascPiedra[show]?.src.src} className={styles.modalImage}/>
+                  <div className={styles.modalBottomDiv}>
+                    <p className={styles.obraInfo}>{imgMap[show]?.text}</p>
+                  </div>
+                </Modal>
+              )}
+          </>)}
+          {active ==="sacramentos" && (<>
+            {windowSize.width > 2000 ? (
+                <Modal centered size="lg" show={show !== false} onHide={handleShow(false)}>
+                  <img src={sacramentos[show]?.src.src} className={styles.modalImage}/>
+                  <div className={styles.modalBottomDiv}>
+                    <p className={styles.obraInfo}>{imgMap[show]?.text}</p>
+                  </div>
+                </Modal>
+              ):(
+                <Modal centered size="xs" show={show !== false} onHide={handleShow(false)}>
+                  <img src={sacramentos[show]?.src.src} className={styles.modalImage}/>
+                  <div className={styles.modalBottomDiv}>
+                    <p className={styles.obraInfo}>{imgMap[show]?.text}</p>
+                  </div>
+                </Modal>
+              )}
+          </>)}
+          {active ==="vespertino" && (<>
+            {windowSize.width > 2000 ? (
+                <Modal centered size="lg" show={show !== false} onHide={handleShow(false)}>
+                  <img src={vespertino[show]?.src.src} className={styles.modalImage}/>
+                  <div className={styles.modalBottomDiv}>
+                    <p className={styles.obraInfo}>{imgMap[show]?.text}</p>
+                  </div>
+                </Modal>
+              ):(
+                <Modal centered size="xs" show={show !== false} onHide={handleShow(false)}>
+                  <img src={vespertino[show]?.src.src} className={styles.modalImage}/>
+                  <div className={styles.modalBottomDiv}>
+                    <p className={styles.obraInfo}>{imgMap[show]?.text}</p>
+                  </div>
+                </Modal>
+              )}
+          </>)}
+
+
 
         </div>
 
