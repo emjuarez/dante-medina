@@ -28,9 +28,9 @@
 }
 .categoryButton p {
     font-family: "M Bold";
-    font-size: 12px;
+    font-size: 18px;
     color: black;
-    margin-bottom: 0px;
+    margin: 0px;
 }
 .obraContainer {
     display: grid;
@@ -55,7 +55,7 @@
 }
 .obraInfo {
     font-family: "M Bold";
-    font-size: 16px;
+    font-size: 18px;
     color: black;
     margin-bottom: 0;
 }

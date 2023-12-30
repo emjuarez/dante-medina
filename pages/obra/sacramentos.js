@@ -13,6 +13,10 @@ import i10 from "/public/images/masa/segundo-sacramento.jpg";
 import i11 from "/public/images/masa/servicio.jpg";
 import i12 from "/public/images/masa/tequiero.jpg";
 import i13 from "/public/images/masa/tracksuit.jpg";
+import i14 from "/public/images/masa/6.png"
+import i15 from "/public/images/masa/6-detalle.png"
+import i16 from "/public/images/masa/uncion.png"
+import i17 from "/public/images/masa/Unción detalle.png"
 
 const sacramentos = [
     {src: i7, text: "Caso Nash"},
@@ -23,6 +27,10 @@ const sacramentos = [
     {src: i11, text: "Servicio"},
     {src: i12, text: "Te quiero"},
     {src: i13, text: "Tracksuit lovers"},
+    {src: i14, text: "6"},
+    {src: i15, text: "6 (Detalle)"},
+    {src: i16, text: "Unción de los enfermos"},
+    {src: i17, text: "Unción de los enfermos (detalle)"},
   ];
 
 const Sacramentos = () => {
