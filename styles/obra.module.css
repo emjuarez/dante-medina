@@ -8,25 +8,28 @@
 }
 .categoryNavDiv {
     display: flex;
-    flex-direction: row;
-    overflow-x: auto;
-    margin-bottom: 10%;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
+    height: 80vh;
+}
+.categoryNavDiv a {
+    text-decoration: none;
 }
 .categoryButton {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
-    background-color: black;  
-    padding: 3%;
-    min-width: 50%;
-    margin-right: 3%;
+    border-radius: 80%;
+    border: 1px solid black;
+    padding: 5%;
+    width: 100%;
+    margin-bottom: 7%;
 }
 .categoryButton p {
     font-family: "M Bold";
     font-size: 12px;
-    color: white;
+    color: black;
     margin-bottom: 0px;
 }
 .obraContainer {
@@ -51,10 +54,15 @@
     width: 100%;
 }
 .obraInfo {
-    font-family: "M Regular";
+    font-family: "M Bold";
     font-size: 16px;
     color: black;
     margin-bottom: 0;
+}
+.gobackDiv {
+    width: 100%;
+    max-width: 1700px;
+    padding: 0% 0% 3% 2%;
 }
 @media (min-width: 752px) {
     .obraMainDiv {
@@ -73,19 +81,19 @@
         max-width: 1700px;
     }
     .categoryNavDiv {
-        overflow-x: hidden;
         width: 100%;
-        justify-content: space-around;
-        max-width: 1000px;
+        justify-content: center;
+        align-items: center;
+        height: auto;
     }
     .categoryButton {
-        border-radius: 20px;
-        padding: 1%;
-        min-width: 15%;
-        margin-right: 1%;
+        /* border-radius: 50px; */
+        padding: 5%;
+        width: 50%;
     }
     .categoryButton p {
-        font-size: 10px;
+        font-size: 18px;
+        margin: 0;
     }
     .modal-size {
         width: 100%;
@@ -95,7 +103,12 @@
 }
 @media (min-width: 1000px) {
     .categoryButton p {
-        font-size: 12px;
+        font-size: 21px;
+    }
+    .categoryButton {
+        padding: 2%;
+        width: 40%;
+        margin-bottom: 5%;
     }
 }
 @media (min-width: 1500px) {
@@ -108,16 +121,18 @@
         max-width: 1500px;
     }
     .categoryNavDiv {
-        margin-bottom: 5%;
-        max-width: 1300px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
     }
     .categoryButton {
-        min-width: 13%;
+        width: 30%;
+        margin-bottom: 3%;
         padding: 1% 2%;
-        border-radius: 100px;
+        /* border-radius: 100px; */
     }
     .categoryButton p {
-        font-size: 15px;
+        font-size: 25px;
     }
     .obraInfo {
         font-size: 20px;
